@@ -4,13 +4,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+    <title>Index</title>
 </head>
 <body>
-
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
-      </div>
+    <div id="dvsCarousel" class="fullscreen-carousel carousel slide" data-bs-ride="carousel">
     
+        <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light px-3">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/assets_task_01jqdy0mmgentb9mrqnryj4q2a_img_1.webp" alt="DVS Logo" width="40" height="40" class="me-2">
+            <span>DVS</span>
+          </a>
+        </nav>
+    
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="images/group_of_people.webp" class="d-block" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Air Knows</h5>
+              <p>You’ve only just arrived — but it already knows you.</p>
+            </div>
+          </div>
+    
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="images/group_of_people.webp" class="d-block" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Listening Architecture</h5>
+              <p>Technology doesn’t speak. It allows you to hear.</p>
+            </div>
+          </div>
+    
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="images/group_of_people.webp" class="d-block" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Resonance</h5>
+              <p>There is no input. No signal. But something has changed.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Navigation buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dvsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dvsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    
+      </div>
+
 </body>
 </html>
