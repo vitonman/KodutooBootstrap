@@ -1,8 +1,6 @@
 html, body {
   height: 100%;
   margin: 0;
-  padding: 0;
-  
 }
 
 body{
@@ -27,6 +25,15 @@ main{
 }
 
 .navbar-dark .nav-link.active {
-  color: rgba(255, 255, 255, 0.9); /* Белый текст */
-  font-weight: bold; /* Жирный текст */
+  color: rgba(255, 255, 255, 0.9); 
+  font-weight: bold; 
+}
+
+.card {
+  min-height: 450px; 
+}
+
+footer {
+  background-color: #343a40; 
+  padding: 20px 0;
 }
